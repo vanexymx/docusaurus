@@ -1,0 +1,387 @@
+yarn run v1.22.22
+$ yarn build:packages && yarn build:website
+$ lerna run build --no-private
+lerna notice cli v6.6.2
+lerna info Executing command in 37 packages: "yarn run build"
+lerna info run Ran npm script 'build' in 'stylelint-copyright' in 4.4s:
+$ tsc
+lerna info run Ran npm script 'build' in '@docusaurus/eslint-plugin' in 5.3s:
+$ tsc
+lerna info run Ran npm script 'build' in '@docusaurus/faster' in 5.8s:
+$ tsc
+lerna info run Ran npm script 'build' in '@docusaurus/remark-plugin-npm2yarn' in 6.3s:
+$ tsc
+lerna info run Ran npm script 'build' in '@docusaurus/logger' in 6.3s:
+$ tsc
+lerna info run Ran npm script 'build' in '@docusaurus/cssnano-preset' in 6.4s:
+$ tsc
+lerna info run Ran npm script 'build' in '@docusaurus/utils-common' in 6.6s:
+$ tsc
+lerna info run Ran npm script 'build' in '@docusaurus/lqip-loader' in 2.3s:
+$ tsc
+lerna info run Ran npm script 'build' in '@docusaurus/utils' in 2.3s:
+$ tsc
+lerna info run Ran npm script 'build' in 'create-docusaurus' in 0.5s:
+$ tsc --build
+lerna info run Ran npm script 'build' in '@docusaurus/utils-validation' in 2.3s:
+$ tsc
+lerna info run Ran npm script 'build' in '@docusaurus/babel' in 2.7s:
+$ tsc
+lerna info run Ran npm script 'build' in '@docusaurus/mdx-loader' in 2.4s:
+$ tsc
+lerna info run Ran npm script 'build' in '@docusaurus/bundler' in 2.4s:
+$ tsc
+lerna info run Ran npm script 'build' in '@docusaurus/core' in 0.6s:
+$ tsc --build && node ../../admin/scripts/copyUntypedFiles.js
+lerna info run Ran npm script 'build' in '@docusaurus/plugin-google-analytics' in 0.8s:
+$ tsc --build
+lerna info run Ran npm script 'build' in '@docusaurus/plugin-css-cascade-layers' in 1.3s:
+$ tsc --build
+lerna info run Ran npm script 'build' in '@docusaurus/plugin-google-gtag' in 1.6s:
+$ tsc --build
+lerna info run Ran npm script 'build' in '@docusaurus/plugin-rsdoctor' in 1.9s:
+$ tsc --build
+lerna info run Ran npm script 'build' in '@docusaurus/plugin-google-tag-manager' in 2.6s:
+$ tsc --build
+lerna info run Ran npm script 'build' in '@docusaurus/plugin-client-redirects' in 2.8s:
+$ tsc
+lerna info run Ran npm script 'build' in '@docusaurus/plugin-svgr' in 2.0s:
+$ tsc --build
+lerna info run Ran npm script 'build' in '@docusaurus/plugin-debug' in 3.4s:
+$ tsc --build && node ../../admin/scripts/copyUntypedFiles.js && prettier --config ../../.prettierrc --write "lib/theme/**/*.js"
+lib/theme/DebugConfig/index.js 99ms
+lib/theme/DebugContent/index.js 50ms
+lib/theme/DebugGlobalData/index.js 6ms
+lib/theme/DebugJsonView/index.js 12ms
+lib/theme/DebugLayout/index.js 40ms
+lib/theme/DebugRegistry/index.js 29ms
+lib/theme/DebugRoutes/index.js 11ms
+lib/theme/DebugSiteMetadata/index.js 12ms
+lerna info run Ran npm script 'build' in '@docusaurus/plugin-content-pages' in 3.5s:
+$ tsc
+lerna info run Ran npm script 'build' in '@docusaurus/plugin-vercel-analytics' in 1.9s:
+$ tsc --build
+lerna info run Ran npm script 'build' in '@docusaurus/theme-translations' in 1.5s:
+$ tsc --build
+lerna info run Ran npm script 'build' in '@docusaurus/plugin-sitemap' in 4.2s:
+$ tsc
+lerna info run Ran npm script 'build' in '@docusaurus/plugin-ideal-image' in 1.6s:
+$ tsc --build && node ../../admin/scripts/copyUntypedFiles.js && prettier --config ../../.prettierrc --write "lib/theme/**/*.js"
+lib/theme/IdealImage/index.js 72ms
+lib/theme/IdealImageLegacy/components/composeStyle.js 9ms
+lib/theme/IdealImageLegacy/components/constants.js 4ms
+lib/theme/IdealImageLegacy/components/helpers.js 26ms
+lib/theme/IdealImageLegacy/components/Icon/Download.js 4ms
+lib/theme/IdealImageLegacy/components/Icon/index.js 6ms
+lib/theme/IdealImageLegacy/components/Icon/Loading.js 4ms
+lib/theme/IdealImageLegacy/components/Icon/Offline.js 4ms
+lib/theme/IdealImageLegacy/components/Icon/Warning.js 4ms
+lib/theme/IdealImageLegacy/components/icons.js 4ms
+lib/theme/IdealImageLegacy/components/IdealImage/index.js 49ms
+lib/theme/IdealImageLegacy/components/IdealImage/waypoint.js 24ms
+lib/theme/IdealImageLegacy/components/IdealImageWithDefaults/index.js 4ms
+lib/theme/IdealImageLegacy/components/loaders.js 19ms
+lib/theme/IdealImageLegacy/components/Media/index.js 14ms
+lib/theme/IdealImageLegacy/components/MediaWithDefaults/index.js 3ms
+lib/theme/IdealImageLegacy/components/theme.js 3ms
+lib/theme/IdealImageLegacy/components/unfetch.js 10ms
+lib/theme/IdealImageLegacy/index.js 1ms
+lerna info run Ran npm script 'build' in '@docusaurus/theme-common' in 3.9s:
+$ tsc && node ../../admin/scripts/copyUntypedFiles.js
+lerna info run Ran npm script 'build' in '@docusaurus/plugin-content-blog' in 0.7s:
+$ tsc --build
+lerna info run Ran npm script 'build' in '@docusaurus/plugin-content-docs' in 0.9s:
+$ tsc --build
+lerna info run Ran npm script 'build' in '@docusaurus/plugin-pwa' in 0.9s:
+$ tsc --build && node ../../admin/scripts/copyUntypedFiles.js && prettier --config ../../.prettierrc --write "lib/theme/**/*.js"
+lib/theme/PwaReloadPopup/index.js 59ms
+lerna info run Ran npm script 'build' in '@docusaurus/theme-mermaid' in 1.8s:
+$ tsc --build && node ../../admin/scripts/copyUntypedFiles.js && prettier --config ../../.prettierrc --write "lib/theme/**/*.js"
+lib/theme/Mermaid/index.js 98ms
+lerna info run Ran npm script 'build' in '@docusaurus/theme-live-codeblock' in 2.1s:
+$ tsc --build && node ../../admin/scripts/copyUntypedFiles.js && prettier --config ../../.prettierrc --write "lib/theme/**/*.js"
+lib/theme/CodeBlock/index.js 66ms
+lib/theme/LiveCodeBlock/index.js 5ms
+lib/theme/Playground/Container/index.js 5ms
+lib/theme/Playground/Editor/index.js 9ms
+lib/theme/Playground/Header/index.js 4ms
+lib/theme/Playground/index.js 5ms
+lib/theme/Playground/Layout/index.js 6ms
+lib/theme/Playground/Preview/index.js 7ms
+lib/theme/Playground/Provider/index.js 10ms
+lib/theme/ReactLiveScope/index.js 4ms
+lerna info run Ran npm script 'build' in '@docusaurus/theme-search-algolia' in 1.4s:
+$ tsc --build && node ../../admin/scripts/copyUntypedFiles.js && prettier --config ../../.prettierrc --write "lib/theme/**/*.js"
+lib/theme/SearchBar/index.js 90ms
+lib/theme/SearchPage/index.js 45ms
+lib/theme/SearchTranslations/index.js 12ms
+lerna info run Ran npm script 'build' in '@docusaurus/theme-classic' in 2.3s:
+$ tsc --build && node ../../admin/scripts/copyUntypedFiles.js && prettier --config ../../.prettierrc --write "lib/theme/**/*.js"
+lib/theme/Admonition/Icon/Danger.js 44ms
+lib/theme/Admonition/Icon/Info.js 4ms
+lib/theme/Admonition/Icon/Note.js 3ms
+lib/theme/Admonition/Icon/Tip.js 2ms
+lib/theme/Admonition/Icon/Warning.js 3ms
+lib/theme/Admonition/index.js 6ms
+lib/theme/Admonition/Layout/index.js 12ms
+lib/theme/Admonition/Type/Caution.js 5ms
+lib/theme/Admonition/Type/Danger.js 4ms
+lib/theme/Admonition/Type/Info.js 3ms
+lib/theme/Admonition/Type/Note.js 3ms
+lib/theme/Admonition/Type/Tip.js 3ms
+lib/theme/Admonition/Type/Warning.js 3ms
+lib/theme/Admonition/Types.js 4ms
+lib/theme/AnnouncementBar/CloseButton/index.js 3ms
+lib/theme/AnnouncementBar/Content/index.js 2ms
+lib/theme/AnnouncementBar/index.js 3ms
+lib/theme/BackToTopButton/index.js 2ms
+lib/theme/Blog/Components/Author/index.js 7ms
+lib/theme/Blog/Components/Author/Socials/index.js 7ms
+lib/theme/Blog/Pages/BlogAuthorsListPage/index.js 5ms
+lib/theme/Blog/Pages/BlogAuthorsPostsPage/index.js 6ms
+lib/theme/BlogArchivePage/index.js 9ms
+lib/theme/BlogLayout/index.js 3ms
+lib/theme/BlogListPage/index.js 7ms
+lib/theme/BlogListPage/StructuredData/index.js 2ms
+lib/theme/BlogListPaginator/index.js 3ms
+lib/theme/BlogPostItem/Container/index.js 1ms
+lib/theme/BlogPostItem/Content/index.js 2ms
+lib/theme/BlogPostItem/Footer/index.js 5ms
+lib/theme/BlogPostItem/Footer/ReadMoreLink/index.js 2ms
+lib/theme/BlogPostItem/Header/Authors/index.js 3ms
+lib/theme/BlogPostItem/Header/index.js 2ms
+lib/theme/BlogPostItem/Header/Info/index.js 5ms
+lib/theme/BlogPostItem/Header/Title/index.js 2ms
+lib/theme/BlogPostItem/index.js 2ms
+lib/theme/BlogPostItems/index.js 2ms
+lib/theme/BlogPostPage/index.js 5ms
+lib/theme/BlogPostPage/Metadata/index.js 4ms
+lib/theme/BlogPostPage/StructuredData/index.js 2ms
+lib/theme/BlogPostPaginator/index.js 2ms
+lib/theme/BlogSidebar/Content/index.js 3ms
+lib/theme/BlogSidebar/Desktop/index.js 3ms
+lib/theme/BlogSidebar/index.js 2ms
+lib/theme/BlogSidebar/Mobile/index.js 3ms
+lib/theme/BlogTagsListPage/index.js 2ms
+lib/theme/BlogTagsPostsPage/index.js 3ms
+lib/theme/CodeBlock/Buttons/Button/index.js 2ms
+lib/theme/CodeBlock/Buttons/CopyButton/index.js 5ms
+lib/theme/CodeBlock/Buttons/index.js 3ms
+lib/theme/CodeBlock/Buttons/WordWrapButton/index.js 2ms
+lib/theme/CodeBlock/Container/index.js 2ms
+lib/theme/CodeBlock/Content/Element.js 2ms
+lib/theme/CodeBlock/Content/index.js 4ms
+lib/theme/CodeBlock/Content/String.js 2ms
+lib/theme/CodeBlock/index.js 2ms
+lib/theme/CodeBlock/Layout/index.js 2ms
+lib/theme/CodeBlock/Line/index.js 4ms
+lib/theme/CodeBlock/Line/Token/index.js 2ms
+lib/theme/CodeBlock/Title/index.js 1ms
+lib/theme/CodeInline/index.js 1ms
+lib/theme/ColorModeToggle/index.js 5ms
+lib/theme/ContentVisibility/Draft/index.js 1ms
+lib/theme/ContentVisibility/index.js 2ms
+lib/theme/ContentVisibility/Unlisted/index.js 2ms
+lib/theme/Details/index.js 2ms
+lib/theme/DocBreadcrumbs/index.js 4ms
+lib/theme/DocBreadcrumbs/Items/Home/index.js 2ms
+lib/theme/DocBreadcrumbs/StructuredData/index.js 2ms
+lib/theme/DocCard/index.js 6ms
+lib/theme/DocCardList/index.js 2ms
+lib/theme/DocCategoryGeneratedIndexPage/index.js 3ms
+lib/theme/DocItem/Content/index.js 3ms
+lib/theme/DocItem/Footer/index.js 2ms
+lib/theme/DocItem/index.js 2ms
+lib/theme/DocItem/Layout/index.js 3ms
+lib/theme/DocItem/Metadata/index.js 2ms
+lib/theme/DocItem/Paginator/index.js 1ms
+lib/theme/DocItem/TOC/Desktop/index.js 1ms
+lib/theme/DocItem/TOC/Mobile/index.js 2ms
+lib/theme/DocPaginator/index.js 2ms
+lib/theme/DocRoot/index.js 2ms
+lib/theme/DocRoot/Layout/index.js 2ms
+lib/theme/DocRoot/Layout/Main/index.js 2ms
+lib/theme/DocRoot/Layout/Sidebar/ExpandButton/index.js 2ms
+lib/theme/DocRoot/Layout/Sidebar/index.js 3ms
+lib/theme/DocSidebar/Desktop/CollapseButton/index.js 2ms
+lib/theme/DocSidebar/Desktop/Content/index.js 2ms
+lib/theme/DocSidebar/Desktop/index.js 2ms
+lib/theme/DocSidebar/index.js 2ms
+lib/theme/DocSidebar/Mobile/index.js 2ms
+lib/theme/DocSidebarItem/Category/index.js 9ms
+lib/theme/DocSidebarItem/Html/index.js 2ms
+lib/theme/DocSidebarItem/index.js 1ms
+lib/theme/DocSidebarItem/Link/index.js 3ms
+lib/theme/DocSidebarItems/index.js 1ms
+lib/theme/DocsRoot/index.js 1ms
+lib/theme/DocTagDocListPage/index.js 4ms
+lib/theme/DocTagsListPage/index.js 2ms
+lib/theme/DocVersionBadge/index.js 2ms
+lib/theme/DocVersionBanner/index.js 5ms
+lib/theme/DocVersionRoot/index.js 2ms
+lib/theme/EditMetaRow/index.js 2ms
+lib/theme/EditThisPage/index.js 1ms
+lib/theme/ErrorPageContent.js 1ms
+lib/theme/Footer/Copyright/index.js 1ms
+lib/theme/Footer/index.js 2ms
+lib/theme/Footer/Layout/index.js 1ms
+lib/theme/Footer/LinkItem/index.js 1ms
+lib/theme/Footer/Links/index.js 1ms
+lib/theme/Footer/Links/MultiColumn/index.js 2ms
+lib/theme/Footer/Links/Simple/index.js 3ms
+lib/theme/Footer/Logo/index.js 2ms
+lib/theme/Heading/index.js 3ms
+lib/theme/Icon/Arrow/index.js 1ms
+lib/theme/Icon/Close/index.js 2ms
+lib/theme/Icon/Copy/index.js 1ms
+lib/theme/Icon/DarkMode/index.js 1ms
+lib/theme/Icon/Edit/index.js 1ms
+lib/theme/Icon/ExternalLink/index.js 2ms
+lib/theme/Icon/Home/index.js 1ms
+lib/theme/Icon/Language/index.js 1ms
+lib/theme/Icon/LightMode/index.js 1ms
+lib/theme/Icon/Menu/index.js 2ms
+lib/theme/Icon/Socials/Bluesky/index.js 1ms
+lib/theme/Icon/Socials/Default/index.js 2ms
+lib/theme/Icon/Socials/GitHub/index.js 1ms
+lib/theme/Icon/Socials/Instagram/index.js 1ms
+lib/theme/Icon/Socials/LinkedIn/index.js 1ms
+lib/theme/Icon/Socials/Mastodon/index.js 1ms
+lib/theme/Icon/Socials/StackOverflow/index.js 2ms
+lib/theme/Icon/Socials/Threads/index.js 1ms
+lib/theme/Icon/Socials/Twitch/index.js 2ms
+lib/theme/Icon/Socials/Twitter/index.js 1ms
+lib/theme/Icon/Socials/X/index.js 1ms
+lib/theme/Icon/Socials/YouTube/index.js 2ms
+lib/theme/Icon/Success/index.js 1ms
+lib/theme/Icon/SystemColorMode/index.js 1ms
+lib/theme/Icon/WordWrap/index.js 1ms
+lib/theme/LastUpdated/index.js 3ms
+lib/theme/Layout/index.js 2ms
+lib/theme/Layout/Provider/index.js 2ms
+lib/theme/Logo/index.js 4ms
+lib/theme/MDXComponents/A/index.js 2ms
+lib/theme/MDXComponents/Code.js 1ms
+lib/theme/MDXComponents/Details.js 2ms
+lib/theme/MDXComponents/Heading.js 1ms
+lib/theme/MDXComponents/Img/index.js 1ms
+lib/theme/MDXComponents/index.js 3ms
+lib/theme/MDXComponents/Li.js 1ms
+lib/theme/MDXComponents/Pre.js 1ms
+lib/theme/MDXComponents/Ul/index.js 2ms
+lib/theme/MDXContent/index.js 1ms
+lib/theme/MDXPage/index.js 4ms
+lib/theme/Mermaid.js 1ms
+lib/theme/Navbar/ColorModeToggle/index.js 2ms
+lib/theme/Navbar/Content/index.js 4ms
+lib/theme/Navbar/index.js 2ms
+lib/theme/Navbar/Layout/index.js 2ms
+lib/theme/Navbar/Logo/index.js 1ms
+lib/theme/Navbar/MobileSidebar/Header/index.js 2ms
+lib/theme/Navbar/MobileSidebar/index.js 2ms
+lib/theme/Navbar/MobileSidebar/Layout/index.js 3ms
+lib/theme/Navbar/MobileSidebar/PrimaryMenu/index.js 2ms
+lib/theme/Navbar/MobileSidebar/SecondaryMenu/index.js 3ms
+lib/theme/Navbar/MobileSidebar/Toggle/index.js 2ms
+lib/theme/Navbar/Search/index.js 1ms
+lib/theme/NavbarItem/ComponentTypes.js 2ms
+lib/theme/NavbarItem/DefaultNavbarItem/Desktop/index.js 2ms
+lib/theme/NavbarItem/DefaultNavbarItem/index.js 2ms
+lib/theme/NavbarItem/DefaultNavbarItem/Mobile/index.js 1ms
+lib/theme/NavbarItem/DocNavbarItem.js 2ms
+lib/theme/NavbarItem/DocSidebarNavbarItem.js 1ms
+lib/theme/NavbarItem/DocsVersionDropdownNavbarItem.js 7ms
+lib/theme/NavbarItem/DocsVersionNavbarItem.js 1ms
+lib/theme/NavbarItem/DropdownNavbarItem/Desktop/index.js 3ms
+lib/theme/NavbarItem/DropdownNavbarItem/index.js 1ms
+lib/theme/NavbarItem/DropdownNavbarItem/Mobile/index.js 5ms
+lib/theme/NavbarItem/HtmlNavbarItem.js 2ms
+lib/theme/NavbarItem/index.js 1ms
+lib/theme/NavbarItem/LocaleDropdownNavbarItem/index.js 5ms
+lib/theme/NavbarItem/NavbarNavLink.js 3ms
+lib/theme/NavbarItem/SearchNavbarItem.js 1ms
+lib/theme/NotFound/Content/index.js 2ms
+lib/theme/NotFound/index.js 2ms
+lib/theme/PaginatorNavLink/index.js 1ms
+lib/theme/prism-include-languages.js 2ms
+lib/theme/SearchBar.js 1ms
+lib/theme/SearchMetadata/index.js 2ms
+lib/theme/SiteMetadata/index.js 5ms
+lib/theme/SkipToContent/index.js 1ms
+lib/theme/TabItem/index.js 2ms
+lib/theme/Tabs/index.js 7ms
+lib/theme/Tag/index.js 2ms
+lib/theme/TagsListByLetter/index.js 2ms
+lib/theme/TagsListInline/index.js 2ms
+lib/theme/ThemedImage/index.js 2ms
+lib/theme/ThemeProvider/index.js 1ms
+lib/theme/ThemeProvider/TitleFormatter/index.js 1ms
+lib/theme/TOC/index.js 1ms
+lib/theme/TOCCollapsible/CollapseButton/index.js 1ms
+lib/theme/TOCCollapsible/index.js 2ms
+lib/theme/TOCInline/index.js 1ms
+lib/theme/TOCItems/index.js 2ms
+lib/theme/TOCItems/Tree.js 2ms
+lerna info run Ran npm script 'build' in '@docusaurus/preset-classic' in 1.7s:
+$ tsc
+lerna success run Ran npm script 'build' in 37 packages in 25.4s:
+lerna success - create-docusaurus
+lerna success - @docusaurus/babel
+lerna success - @docusaurus/bundler
+lerna success - @docusaurus/cssnano-preset
+lerna success - @docusaurus/faster
+lerna success - @docusaurus/logger
+lerna success - @docusaurus/mdx-loader
+lerna success - @docusaurus/plugin-client-redirects
+lerna success - @docusaurus/plugin-content-blog
+lerna success - @docusaurus/plugin-content-docs
+lerna success - @docusaurus/plugin-content-pages
+lerna success - @docusaurus/plugin-css-cascade-layers
+lerna success - @docusaurus/plugin-debug
+lerna success - @docusaurus/plugin-google-analytics
+lerna success - @docusaurus/plugin-google-gtag
+lerna success - @docusaurus/plugin-google-tag-manager
+lerna success - @docusaurus/plugin-ideal-image
+lerna success - @docusaurus/plugin-pwa
+lerna success - @docusaurus/plugin-rsdoctor
+lerna success - @docusaurus/plugin-sitemap
+lerna success - @docusaurus/plugin-svgr
+lerna success - @docusaurus/plugin-vercel-analytics
+lerna success - @docusaurus/preset-classic
+lerna success - @docusaurus/remark-plugin-npm2yarn
+lerna success - @docusaurus/theme-classic
+lerna success - @docusaurus/theme-common
+lerna success - @docusaurus/theme-live-codeblock
+lerna success - @docusaurus/theme-mermaid
+lerna success - @docusaurus/theme-search-algolia
+lerna success - @docusaurus/theme-translations
+lerna success - @docusaurus/utils-common
+lerna success - @docusaurus/utils-validation
+lerna success - @docusaurus/utils
+lerna success - @docusaurus/core
+lerna success - @docusaurus/eslint-plugin
+lerna success - @docusaurus/lqip-loader
+lerna success - stylelint-copyright
+$ yarn workspace website build
+$ docusaurus build
+[INFO] Website will be built for all these locales: 
+- en
+- fr
+- pt-BR
+- ko
+- zh-CN
+[INFO] [en] Creating an optimized production build...
+[WARNING] Cannot infer the update date for some files, as they are not tracked by git.
+[SUCCESS] Generated static files in "build".
+[INFO] [fr] Creating an optimized production build...
+[SUCCESS] Generated static files in "build/fr".
+[INFO] [pt-BR] Creating an optimized production build...
+[SUCCESS] Generated static files in "build/pt-BR".
+[INFO] [ko] Creating an optimized production build...
+For locale=ko, a maximum of 1 plural forms are expected (other), but the message contains 2: 1 site|274 sites
+[SUCCESS] Generated static files in "build/ko".
+[INFO] [zh-CN] Creating an optimized production build...
+For locale=zh-CN, a maximum of 1 plural forms are expected (other), but the message contains 2: 1 site|274 sites
+[SUCCESS] Generated static files in "build/zh-CN".
+[INFO] Use `npm run serve` command to test your build locally.
+Done in 382.69s.
