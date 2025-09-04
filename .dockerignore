@@ -1,0 +1,20 @@
+# Ignore dependencies
+node_modules
+**/node_modules
+
+# Ignore build outputs
+build
+website/build
+
+# Ignore logs
+npm-debug.log
+yarn-error.log
+
+# Git files
+.git
+.gitignore
+
+# Docker itself
+Dockerfile
+docker-compose.yml
+.dockerignore

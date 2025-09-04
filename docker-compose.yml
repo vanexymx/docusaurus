@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  docusaurus-app:
+    build: .
+    container_name: docusaurus_website
+    ports:
+      - "3000:80"
