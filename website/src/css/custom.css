@@ -31,19 +31,16 @@ html[data-theme='dark'] {
  * other properties here.
  */
 [data-theme='light'] {
-  --ifm-color-primary: hsl(var(--site-primary-hue-saturation) 30%);
-  --ifm-color-primary-dark: hsl(var(--site-primary-hue-saturation) 26%);
-  --ifm-color-primary-darker: hsl(var(--site-primary-hue-saturation) 23%);
-  --ifm-color-primary-darkest: hsl(var(--site-primary-hue-saturation) 17%);
+  --ifm-color-primary: #ff5722;
+  --ifm-color-primary-dark: #e64a19;
+  --ifm-color-primary-darker: #d84315;
+  --ifm-color-primary-darkest: #bf360c;
 
-  --ifm-color-primary-light: hsl(var(--site-primary-hue-saturation-light) 39%);
-  --ifm-color-primary-lighter: hsl(
-    var(--site-primary-hue-saturation-light) 47%
-  );
-  --ifm-color-primary-lightest: hsl(
-    var(--site-primary-hue-saturation-light) 58%
-  );
+  --ifm-color-primary-light: #ff7043;
+  --ifm-color-primary-lighter: #ff8a65;
+  --ifm-color-primary-lightest: #ffab91;
 }
+
 
 /*
  * This selector will be dynamically replaced by the color generator. Don't put
